@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+  }
+  .parent .navbar{
+      height: 80px;
+      width: 100%;
+      background-color: black;
+      filter: opacity(50px);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: fixed;
+      z-index: 1;
+      z-index: 1;
+      
+  }
+ 
+  .parent #line{
+      width: 100%;
+      height: 0.5rem;
+      background-color: orange;
+      position: fixed;
+      top: 120px;
+      z-index: 1;
+  
+  }
+  .parent .navbar .logo{
+      width: 25%;
+  }
+  .parent .navbar .content{
+      width: 50%;
+  }
+  .parent .navbar .content a{
+      margin-left: 10px;
+      font-size: 1.3rem;
+      color: white;
+      text-decoration: none;
+      font-style: italic;
+      
+  }
+  .parent .navbar .content .s:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }
+  .parent .navbar .content .u:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent .navbar .content .p:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent .navbar .content .e:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent .navbar .content .r:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent .navbar .content .r:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }
+  .imagesblock{
+    height: 100px;
+    width: 100%;
+    background-color: peru;
+    justify-content: space-around;
+    display: flex;
+  }
+  .imagesblock img{
+    height: 100px;
+    width: 140px;
+    border-radius: 200px;
+  }
+.bluebox{
+  height: 700px;
+  width: 100%;
+  background-color: lightskyblue;
+}
+.bluebox img{
+  height: 600px;
+  width: 600px;
+  position: relative;
+  left: 704px;
+}
+.firstarticle{
+    height: 197px;
+    width: 292px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    position: relative;
+    left: 108px;
+    bottom: 585px;
+    border: 2px solid blue;
+    
+}
+.secondarticle{
+  height: 168px;
+    width: 317px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    position: relative;
+    left: 428px;
+    bottom: 770px;
+    overflow: hidden;
+    border: 2px solid blue;
+}
+.thirdarticle{
+  height: 197px;
+  width: 292px;
+  background-color: cornsilk;
+  border-radius: 20px;
+  position: relative;
+  left: 108px;
+  bottom: 707px;
+  border: 2px solid blue;
+}
+.fourtharticle{
+  height: 168px;
+  width: 312px;
+  background-color: cornsilk;
+  border-radius: 20px;
+  position: relative;
+  left: 433px;
+  bottom: 947px;
+  border: 2px solid blue;
+}
+.fiftharticle{
+  height: 139px;
+  width: 312px;
+  background-color: cornsilk;
+  border-radius: 20px;
+  position: relative;
+  left: 435px;
+  bottom: 930px;
+  border: 2px solid blue;
+}
+
+.firstarticle img{
+  height: 50px;
+  width: 50px;
+ position: absolute;
+ left: 21px;
+ bottom: 143px;   
+}
+
+
+.thirdarticle img{
+height: 50px;
+width: 50px;
+position: absolute;
+left: 27px;
+ bottom: 142px; 
+}
+.fourtharticle img{
+height: 104px;
+width: 122px;
+position: absolute;
+left: 4px;
+ bottom: 303px; 
+}
+.fiftharticle img{
+height: 50px;
+width: 50px;
+position: absolute;
+left: 20px;
+ bottom: 275px; 
+}
+.stadiumvideo{
+  height: 437px;
+  width: 500px;
+  border-radius: 20px;
+  border: 10px solid black;
+  position: relative;
+  left: 431px;
+  bottom: -7px;
+}
+.dox{
+  height: 250px;
+  width: 100%;
+  background-image: url(./Technologyimage.jpg);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.firstanchor{
+     position: relative;
+     left: 237px;
+     bottom: 81px;
+     color: darkturquoise;
+     font-size: 25px;
+     font-weight: 800;
+}
+.secondanchor{
+        position: relative;
+        left: 532px;
+     bottom: 81px;
+     color: darkturquoise;
+     font-size: 25px;
+     font-weight: 800;
+}
+.thirdanchor{
+        position: relative;
+        left: 813px;
+     bottom: 81px;
+     color: darkturquoise;
+     font-size: 25px;
+     font-weight: 800;
+}
+.MapplesFirst{
+  height: 450px;
+  width: 80%;
+  background-color: green;
+  position: relative;
+  left: 132px;
+
+overflow-x: scroll;
+   background-color: aliceblue;
+   border-radius: 30px;
+   border: 4px solid skyblue;
+}
+.MapplesFirst video{
+    height: 500px;
+    width: 500px;
+     float: left;
+     padding: 5px 30px 30px 30px;
+}
+.Mapplesecond{
+  height: 450px;
+  width: 80%;
+  background-color: aliceblue;
+  position: relative;
+  left: 132px;
+  overflow: scroll;
+  border-radius: 30px;
+   border: 4px solid skyblue;
+   
+}
+.Mapplesecond video{
+  height: 500px;
+  width: 500px;
+  float: right;
+  padding: 30px 30px 30px 30px;
+}
+
+
+.threeinonesection{
+  height: 1600px;
+  width: 100%;
+  background-color: skyblue;
+}
+.threeinonesection .threeinone{
+  height: 400px;
+  width: 80%;
+  background-color: cornsilk;
+  position: relative;
+  left: 140px;
+  border-radius: 30px; 
+}
+.threeinonesection .threeinone video{
+  height: 400px;
+  width: 500px;
+  padding: 30px 30px 30px 30px;
+  float: right;
+}
+
+.threeintwo{
+  height: 400px;
+  width: 80%;
+  background-color: cornsilk;
+  position: relative;
+  left: 140px;
+  border-radius: 30px;
+}
+.threeintwo video{
+  height: 400px;
+  width: 500px;
+  padding: 30px 30px 30px 30px;
+  float: left;
+}
+.threeinthree{
+  height: 400px;
+  width: 80%;
+  background-color: cornsilk;
+  position: relative;
+  left: 140px;
+  border-radius: 30px;
+}
+.threeinthree video{
+  height: 400px;
+  width: 500px;
+  padding: 30px 30px 30px 30px;
+  float: right;
+}
+.firstmap{
+  height: 300px;
+  width: 100%;
+  background-color: tomato;
+}
+.secondmap{
+  height: 300px;
+  width: 100%;
+  background-color: rgb(11, 11, 138);
+}
+.thirdmap{
+  height: 300px;
+  width: 100%;
+  background-color: rgb(89, 255, 71);
+}
+

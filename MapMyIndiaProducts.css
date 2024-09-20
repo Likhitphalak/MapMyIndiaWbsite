@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+  }
+  .parent .navbar{
+      height: 150px;
+      width: 100%;
+      background-color: black;
+      filter: opacity(50px);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: fixed;
+      z-index: 1;
+      z-index: 1;
+      
+  }
+ 
+  .parent #line{
+      width: 100%;
+      height: 0.5rem;
+      background-color: orange;
+      position: fixed;
+      top: 120px;
+      z-index: 1;
+  
+  }
+  .parent .navbar .logo{
+      width: 25%;
+  }
+  .parent .navbar .content{
+      width: 50%;
+  }
+  .parent .navbar .content a{
+      margin-left: 10px;
+      font-size: 1.3rem;
+      color: white;
+      text-decoration: none;
+      font-style: italic;
+      
+  }
+  .parent .navbar .content .s:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }
+  .parent .navbar .content .u:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent .navbar .content .p:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent .navbar .content .e:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent .navbar .content .r:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent .navbar .content .r:hover{
+    color: yellow;
+    transition: 1s;
+    text-decoration: underline;
+  }
+
+  .parent2 .navbar2{
+      height: 50px;
+      width: 100%;
+      background-color: darkcyan;
+      filter: opacity(50px);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: fixed;
+      z-index: 1;
+      z-index: 1;
+      
+  }
+ 
+  .parent2 #line{
+      width: 100%;
+      height: 0.5rem;
+      background-color: orange;
+      position: fixed;
+      top: 120px;
+      z-index: 1;
+  
+  }
+  .parent2 .navbar2 .logo2{
+      width: 25%;
+  }
+  .parent2 .navbar2 .content2{
+      width: 80%;
+  }
+  .parent2 .navbar2 .content2 a{
+      margin-left: 10px;
+      font-size: 1.3rem;
+      color: white;
+      text-decoration: none;
+      font-style: italic;
+      
+  }
+  .parent2 .navbar2 .content2 .u:hover{
+    color: green;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent2 .navbar2 .content2 .p:hover{
+    color: green;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent2 .navbar2 .content2 .e:hover{
+    color: green;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent2 .navbar2 .content2 .r:hover{
+    color: green;
+    transition: 1s;
+    text-decoration: underline;
+  }.parent2 .navbar2 .content2 .r:hover{
+    color: green;
+    transition: 1s;
+    text-decoration: underline;
+  }
+  .parent2 .navbar2 .content2 .se:hover{
+    color: green;
+    transition: 1s;
+    text-decoration: underline;
+  }
+  .parent2 .navbar2 .content2 .upr:hover{
+    color:green;
+    transition: 1s;
+    text-decoration: underline;
+  }
+  .impbutton{
+    position: relative;
+    height: 50px;
+    width: 422px;
+    left: 480px;
+    bottom: 127px;
+    background-color: orange;
+      color: white;
+      border-radius: 200px;
+      border: 2px solid lawngreen;
+      font-size: 30px;
+      
+  }
+  .images{
+    height: 380px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 128px;
+  }
+
+
+
+  .cardsmain{
+    height: 70vh;
+    width: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    
+   
+  }
+  .cardsmain .firstcard{
+    height: 384px;
+    width: 320px;
+    /* background-color: chartreuse; */
+    box-shadow: 0 0 3px 3px black;
+    border-radius: 10px;
+  }
+
+  .cardsmain .firstcard img{
+    height:  200px;
+    width: inherit;
+    border-radius: 10px;
+   
+  }
+  
+  .cardsmain .firstcard .heading{
+   padding: 30px;
+  line-height: 25px;
+  border-radius: 20px;
+  /* border: 2px solid black; */
+  /* background-color: chartreuse; */
+  }
+  .cardsmain .firstcard .heading h1{
+    font-weight: 600;
+   }
+   .footersecond{
+            height: 300px;
+            width: 100%;
+            background-color: lightskyblue;
+   }
+   .buttoncontact{
+    height: 50px;
+    width: 200px;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    border-radius: 300px;
+   }
+   .buttoncontact:hover{
+    color: black;
+    font-weight: 900;
+    transition: 2s;
+    border: 2px solid darkblue;
+   }
+   
+  
+   
+  
